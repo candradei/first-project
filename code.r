@@ -6,7 +6,6 @@ c=IQR(myvector)
 d=(summary(myvector))
 a
 b
-c
 d
 myrandomvector=sample(1:1000,20)
 plot(myrandomvector,type="h")
