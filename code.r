@@ -8,3 +8,7 @@ a
 b
 c
 d
+myrandomvector=sample(1:1000,20)
+plot(myrandomvector,type="h")
+plot(table(rpois(100, 5)), type = "h", col = "red", lwd = 10,
+     main = "rpois(100, lambda = 5)")
